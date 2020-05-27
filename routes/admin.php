@@ -54,5 +54,14 @@ Route::namespace('Admin')->name('admin.')->prefix('admin')->group(function() {
 
 		Route::post('/roles', 'RoleController@store')->name('roles.store');
 		Route::post('/roles/{id}', 'RoleController@update')->name('roles.update');
+
+		/** Categories */
+		Route::get('/categories', 'CategoryController@index')->name('categories.index');
+		Route::get('/categories/create', 'CategoryController@create')->name('categories.create');
+		Route::get('/categories/{id}', 'CategoryController@show')->name('categories.show');
+		Route::get('/categories/{id}/edit', 'CategoryController@edit')->name('categories.edit');
+		Route::post('/categories', 'CategoryController@store')->name('categories.store');
+		Route::post('/categories/{id}', 'CategoryController@update')->name('categories.update');
+		Route::get('/categories/{id}/destroy', 'CategoryController@destroy')->name('categories.destroy');
 	});
 });

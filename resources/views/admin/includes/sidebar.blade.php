@@ -48,6 +48,13 @@
 
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
+                            <a href="{{ route('admin.categories.index') }}" class="nav-link active">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Categories</p>
+                            </a>
+                        </li>
+                        
+                        <li class="nav-item">
                             <a href="{{ route('admin.samples.index') }}" class="nav-link active">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Sample Model</p>

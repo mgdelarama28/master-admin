@@ -14,7 +14,5 @@
 // Auth::routes();
 
 Route::namespace('Web')->name('web.')->group(function() {
-	Route::get('/', function() {
-		return view('web.pages.index');
-	});
+	Route::get('/', 'PageController@index');
 });
