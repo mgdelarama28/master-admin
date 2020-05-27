@@ -14,10 +14,7 @@
 // Auth::routes();
 
 Route::namespace('Web')->name('web.')->group(function() {
-	Route::namespace('Auth')->group(function() {
-		Route::middleware('guest:web')->group(function() {
-			Route::get('login', 'LoginController@showLoginForm')->name('login');
-			Route::post('login', 'LoginController@login')->name('login');
-		});
+	Route::get('/', function() {
+		return view('web.pages.index');
 	});
 });
