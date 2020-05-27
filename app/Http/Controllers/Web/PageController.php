@@ -19,4 +19,15 @@ class PageController extends Controller
             'products' => $products,
         ]);
     }
+
+    public function products()
+    {
+        $categories = Category::all();
+        $products = Product::all();
+
+        return view('web.pages.products', [
+            'categories' => $categories,
+            'products' => $products,
+        ]);   
+    }
 }

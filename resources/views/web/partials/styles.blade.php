@@ -10,3 +10,5 @@
 
 <link rel="stylesheet" href="{{ asset('css/web/flaticon.css') }}">
 <link rel="stylesheet" href="{{ asset('css/web/style.css') }}">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
