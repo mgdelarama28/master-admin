@@ -15,5 +15,6 @@
 
 Route::namespace('Web')->name('web.')->group(function() {
 	Route::get('/', 'PageController@index');
-	Route::get('/products', 'PageController@products');
+	Route::get('/products', 'ProductController@index');
+	Route::get('/products/{id}', 'ProductController@show');
 });

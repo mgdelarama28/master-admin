@@ -49704,8 +49704,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /var/www/html/portfolio-projects/master-admin/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /var/www/html/portfolio-projects/master-admin/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /var/www/html/portfolio-projects/conans-liquor/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /var/www/html/portfolio-projects/conans-liquor/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

@@ -63,5 +63,14 @@ Route::namespace('Admin')->name('admin.')->prefix('admin')->group(function() {
 		Route::post('/categories', 'CategoryController@store')->name('categories.store');
 		Route::post('/categories/{id}', 'CategoryController@update')->name('categories.update');
 		Route::get('/categories/{id}/destroy', 'CategoryController@destroy')->name('categories.destroy');
+
+		/** Categories */
+		Route::get('/products', 'ProductController@index')->name('products.index');
+		Route::get('/products/create', 'ProductController@create')->name('products.create');
+		Route::get('/products/{id}', 'ProductController@show')->name('products.show');
+		Route::get('/products/{id}/edit', 'ProductController@edit')->name('products.edit');
+		Route::post('/products', 'ProductController@store')->name('products.store');
+		Route::post('/products/{id}', 'ProductController@update')->name('products.update');
+		Route::get('/products/{id}/destroy', 'ProductController@destroy')->name('products.destroy');
 	});
 });

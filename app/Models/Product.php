@@ -33,6 +33,15 @@ class Product extends Model
      * 
      * 
      */
+    public function renderDescription()
+    {
+        if ($this->description):
+            return $this->description;
+        endif;
+
+        return 'No description to show.';
+    }
+
     public function renderImage()
     {
         return asset('storage/' . $this->image_path);
