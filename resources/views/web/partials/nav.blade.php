@@ -10,7 +10,7 @@
 
             <div class="dropdown-menu dropdown-menu-right">
                 <div class="dropdown-item d-flex align-items-start" href="#">
-                    <div class="img" style="background-image: url(images/prod-1.jpg);"></div>
+                    <div class="img" style="background-image: url('{{ asset('images/web/black.jpg') }}');"></div>
                     <div class="text pl-3">
                         <h4>Bacardi 151</h4>
                         <p class="mb-0"><a href="#" class="price">$25.99</a><span class="quantity ml-3">Quantity: 01</span></p>
@@ -48,7 +48,7 @@
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="{{ route('web.index') }}" class="nav-link">Home</a>
                 </li>
                 
                 <li class="nav-item">

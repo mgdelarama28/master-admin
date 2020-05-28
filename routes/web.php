@@ -14,7 +14,9 @@
 // Auth::routes();
 
 Route::namespace('Web')->name('web.')->group(function() {
-	Route::get('/', 'PageController@index');
-	Route::get('/products', 'ProductController@index');
-	Route::get('/products/{id}', 'ProductController@show');
+	Route::get('/', 'PageController@index')->name('index');
+	Route::get('/products', 'ProductController@index')->name('products.index');
+	Route::get('/products/{id}', 'ProductController@show')->name('products.show');
+	Route::get('/shopping-cart', 'CartController@index')->name('cart.index');
+	Route::get('/checkout', 'CartController@checkout')->name('cart.checkout');
 });
