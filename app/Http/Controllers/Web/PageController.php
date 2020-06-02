@@ -12,8 +12,8 @@ class PageController extends Controller
     public function index()
     {
         $categories = Category::all();
-        $products = Product::take(8)->get();
-
+        $products = Product::with('category')->take(8)->get();
+        
         return view('web.pages.index', [
             'categories' => $categories,
             'products' => $products,

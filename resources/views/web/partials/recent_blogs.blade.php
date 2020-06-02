@@ -1,14 +1,14 @@
 <section class="ftco-section">
     <div class="container">
         <div class="row justify-content-center mb-5">
-            <div class="col-md-7 heading-section text-center ftco-animate">
+            <div class="col-md-7 heading-section text-center">
                 <span class="subheading">Blog</span>
                 <h2>Recent Blog</h2>
             </div>
         </div>
 
         <div class="row d-flex">
-            <div class="col-lg-6 d-flex align-items-stretch ftco-animate">
+            <div class="col-lg-6 d-flex align-items-stretch">
                 <div class="blog-entry d-flex">
                     <a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_1.jpg');"></a>
                 
@@ -24,7 +24,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 d-flex align-items-stretch ftco-animate">
+            <div class="col-lg-6 d-flex align-items-stretch">
                 <div class="blog-entry d-flex">
                     <a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_2.jpg');"></a>
                     <div class="text p-4 bg-light">
@@ -39,7 +39,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 d-flex align-items-stretch ftco-animate">
+            <div class="col-lg-6 d-flex align-items-stretch">
                 <div class="blog-entry d-flex">
                     <a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_3.jpg');"></a>
                     
@@ -55,7 +55,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 d-flex align-items-stretch ftco-animate">
+            <div class="col-lg-6 d-flex align-items-stretch">
                 <div class="blog-entry d-flex">
                     <a href="blog-single.html" class="block-20 img" style="background-image: url('images/image_4.jpg');"></a>
                     

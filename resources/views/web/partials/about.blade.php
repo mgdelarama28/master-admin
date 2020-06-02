@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(images/about.jpg);"></div>
             
-            <div class="col-md-6 wrap-about pl-md-5 ftco-animate py-5">
+            <div class="col-md-6 wrap-about pl-md-5 py-5">
                 <div class="heading-section">
                     <span class="subheading">Since 1905</span>
                     <h2 class="mb-4">Desire Meets A New Taste</h2>

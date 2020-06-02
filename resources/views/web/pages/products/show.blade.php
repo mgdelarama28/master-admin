@@ -7,8 +7,7 @@
         <div class="container">
             <div class="row no-gutters slider-text align-items-end justify-content-center">
                 <div class="col-md-9 ftco-animate mb-5 text-center">
-                    <p class="breadcrumbs mb-0"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span><a href="product.html">Products <i class="fa fa-chevron-right"></i></a></span> <span>Products Single <i class="fa fa-chevron-right"></i></span></p>
-                    <h2 class="mb-0 bread">Products Single</h2>
+                    <h2 class="mb-0 bread">{{ $product->name }}</h2>
                 </div>
             </div>
         </div>
@@ -18,11 +17,12 @@
     	<div class="container">
     		<div class="row">
     			<div class="col-lg-6 mb-5 ftco-animate">
-    				<a href="images/prod-1.jpg" class="image-popup prod-img-bg"><img src="images/prod-1.jpg" class="img-fluid" alt="Colorlib Template"></a>
+    				<a href="images/prod-1.jpg" class="image-popup prod-img-bg"><img src="{{ $product->renderImage() }}" class="img-fluid" alt="Colorlib Template"></a>
                 </div>
                 
     			<div class="col-lg-6 product-details pl-md-5 ftco-animate">
-    				<h3>Bacardi 151 Degree</h3>
+					<h3>{{ $product->name }}</h3>
+					
     				<div class="rating d-flex">
 							<p class="text-left mr-4">
 								<a href="#" class="mr-2">5.0</a>
@@ -38,10 +38,10 @@
 							</p>
                 
                             <p class="text-left">
-								<a href="#" class="mr-2" style="color: #000;">500 <span style="color: #bbb;">Sold</span></a>
+								<a href="#" class="mr-2" style="color: #000;">{{ $product->sold }} <span style="color: #bbb;">Sold</span></a>
 							</p>
 						</div>
-    				<p class="price"><span>$120.00</span></p>
+    				<p class="price"><span>${{ $product->price }}</span></p>
                 
                     <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
 
@@ -69,7 +69,7 @@
                             <div class="w-100"></div>
             
                             <div class="col-md-12">
-                                <p style="color: #000;">80 piece available</p>
+                                <p style="color: #000;">{{ $product->stock }} piece/s available</p>
                             </div>
           	        </div>
               

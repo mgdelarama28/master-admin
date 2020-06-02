@@ -2,12 +2,12 @@
     <div class="overlay"></div>
   <div class="container">
     <div class="row justify-content-center mb-5">
-      <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+      <div class="col-md-7 text-center heading-section heading-section-white">
           <span class="subheading">Testimonial</span>
         <h2 class="mb-3">Happy Clients</h2>
       </div>
     </div>
-    <div class="row ftco-animate">
+    <div class="row">
       <div class="col-md-12">
         <div class="carousel-testimony owl-carousel ftco-owl">
           <div class="item">
